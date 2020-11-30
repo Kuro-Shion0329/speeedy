@@ -10,7 +10,7 @@ import (
 
 func Start(token string) {
 	b, err := telebot.NewBot(telebot.Settings{
-		Token:  token,
+		Token:  1469551481:AAFcndU846SFV8QyStmc5GOiNqv19OFuDLk,
 		Poller: &telebot.LongPoller{Timeout: 10 * time.Second},
 	})
 	if err != nil {
